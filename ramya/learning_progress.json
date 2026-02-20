@@ -1,0 +1,102 @@
+{
+  "Gradient Descent": {
+    "completed": false,
+    "score": 0,
+    "attempts": 0,
+    "best_score": 0,
+    "last_score": 0,
+    "feynman_level": 0,
+    "feynman_attempts_used": 0,
+    "last_updated": "2026-01-28T20:13:19.013684"
+  },
+  "Backpropagation": {
+    "completed": false,
+    "score": 0,
+    "attempts": 0,
+    "best_score": 0,
+    "last_score": 0,
+    "feynman_level": 0,
+    "feynman_attempts_used": 0,
+    "last_updated": "2026-01-28T20:13:19.013684"
+  },
+  "Activation Functions": {
+    "completed": false,
+    "score": 0,
+    "attempts": 3,
+    "best_score": 33.33333333333333,
+    "last_score": 0.0,
+    "feynman_level": 1,
+    "feynman_attempts_used": 1,
+    "last_updated": "2026-01-28T21:10:55.697860"
+  },
+  "Loss Functions": {
+    "completed": false,
+    "score": 0,
+    "attempts": 0,
+    "best_score": 0,
+    "last_score": 0,
+    "feynman_level": 0,
+    "feynman_attempts_used": 0,
+    "last_updated": "2026-01-28T20:13:19.013684"
+  },
+  "Batch Normalization": {
+    "completed": false,
+    "score": 0,
+    "attempts": 1,
+    "best_score": 0,
+    "last_score": 0,
+    "feynman_level": 0,
+    "feynman_attempts_used": 0,
+    "last_updated": "2026-01-28T20:24:41.356207"
+  },
+  "Dropout Regularization": {
+    "completed": false,
+    "score": 0,
+    "attempts": 0,
+    "best_score": 0,
+    "last_score": 0,
+    "feynman_level": 0,
+    "feynman_attempts_used": 0,
+    "last_updated": "2026-01-28T20:13:19.013684"
+  },
+  "Learning Rate Scheduling": {
+    "completed": false,
+    "score": 0,
+    "attempts": 0,
+    "best_score": 0,
+    "last_score": 0,
+    "feynman_level": 0,
+    "feynman_attempts_used": 0,
+    "last_updated": "2026-01-28T20:13:19.013684"
+  },
+  "Adam Optimizer": {
+    "completed": false,
+    "score": 0,
+    "attempts": 0,
+    "best_score": 0,
+    "last_score": 0,
+    "feynman_level": 0,
+    "feynman_attempts_used": 0,
+    "last_updated": "2026-01-28T20:13:19.013684"
+  },
+  "Transfer Learning": {
+    "completed": false,
+    "score": 0,
+    "attempts": 0,
+    "best_score": 0,
+    "last_score": 0,
+    "feynman_level": 0,
+    "feynman_attempts_used": 0,
+    "last_updated": "2026-01-28T20:13:19.013684"
+  },
+  "Early Stopping": {
+    "completed": false,
+    "score": 0,
+    "attempts": 0,
+    "best_score": 0,
+    "last_score": 0,
+    "feynman_level": 0,
+    "feynman_attempts_used": 0,
+    "last_updated": "2026-01-28T20:13:19.013684"
+  }
+}
