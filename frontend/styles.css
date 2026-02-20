@@ -1,0 +1,249 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #020617; /* Deeper black */
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 750px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card {
+  background: #0f172a;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.neon-border {
+  border: 1px solid #00f6ff;
+  box-shadow: 0 0 10px rgba(0, 246, 255, 0.2);
+}
+
+.neon-border:hover {
+  box-shadow: 0 0 20px rgba(0, 246, 255, 0.4);
+}
+
+h1, h2, h3 {
+  color: #00f6ff;
+  text-shadow: 0 0 8px rgba(0, 246, 255, 0.3);
+}
+
+select, button {
+  font-size: 1rem;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+select {
+  background: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+  width: 60%;
+}
+
+button {
+  background: #00f6ff;
+  color: #020617;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background: #ffffff;
+  box-shadow: 0 0 15px #00f6ff;
+  transform: translateY(-2px);
+}
+
+.relevance-box {
+  background: #020617;
+  border: 2px solid #00f6ff;
+  padding: 20px;
+  text-align: center;
+  margin: 30px 0;
+  border-radius: 15px;
+}
+
+.big-score {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #00f6ff;
+  display: block;
+}
+
+.quiz-q {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.option-label {
+  display: block;
+  background: #0f172a;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  cursor: pointer;
+}
+
+.option-label:hover {
+  border-color: #00f6ff;
+  background: #13233b;
+}
+
+.hint-box {
+  background: #020617;
+  color: #a5f3fc;
+  padding: 12px;
+  margin-top: 10px;
+  border-left: 3px solid #00f6ff;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.reteach-module {
+  border: 2px solid #f87171;
+  background: #450a0a22;
+  padding: 20px;
+  border-radius: 10px;
+}
+.progress-container {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #0f172a;
+  border-radius: 10px;
+  border: 1px solid #39ff14;
+  box-shadow: 0 0 10px rgba(57, 255, 20, 0.1);
+}
+
+.progress-bar-bg {
+  background: #020617;
+  height: 12px;
+  border-radius: 6px;
+  border: 1px solid #1e293b;
+}
+
+.progress-bar-fill {
+  background: #39ff14;
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: 0 0 15px #39ff14;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.neon-input {
+  background: #020617;
+  border: 1px solid #00f6ff;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.neon-input:focus {
+  box-shadow: 0 0 10px #00f6ff;
+}
+
+.progress-bar-bg {
+  background: #020617;
+  height: 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+  border: 1px solid #1e293b;
+}
+
+.progress-bar-fill {
+  background: #39ff14;
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: 0 0 15px #39ff14;
+  transition: width 0.6s ease-in-out;
+}
+
+.neon-text {
+  color: #00f6ff;
+  text-shadow: 0 0 15px #00f6ff;
+  letter-spacing: 5px;
+}
+/* Attempt Monitor Styling */
+.attempt-monitor {
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 120px;
+  transition: all 0.3s ease;
+  border: 1px solid #1e293b;
+}
+
+/* Green state: attempts available */
+.attempt-monitor.available {
+  background: rgba(57, 255, 20, 0.05);
+  border-color: #39ff14;
+  box-shadow: 0 0 10px rgba(57, 255, 20, 0.1);
+}
+
+/* Red state: 3/3 attempts failed */
+.attempt-monitor.locked {
+  background: rgba(248, 113, 113, 0.1);
+  border-color: #f87171;
+  box-shadow: 0 0 10px rgba(248, 113, 113, 0.2);
+}
+
+.attempt-label {
+  display: block;
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  color: #94a3b8;
+}
+
+.attempt-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #334155;
+}
+
+/* Ready dots glow white/blue */
+.dot.ready {
+  background: #1e293b;
+}
+
+/* Used dots glow based on status */
+.available .dot.used {
+  background: #39ff14;
+  box-shadow: 0 0 8px #39ff14;
+  border-color: #39ff14;
+}
+
+.locked .dot.used {
+  background: #f87171;
+  box-shadow: 0 0 8px #f87171;
+  border-color: #f87171;
+}
+
+.attempt-text {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #e2e8f0;
+}
